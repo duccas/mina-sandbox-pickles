@@ -8,8 +8,7 @@
 
 _\*Баллы Testnet предназначены исключительно для отслеживания взносов в Testnet, и очки Testnet не имеют денежной или иной денежной ценности. Баллы Testnet не подлежат передаче, обмену или обмену на криптовалюту или цифровые активы. Мы можем в любое время изменить или удалить баллы Testnet._  
   
-За основу были взяты материалы из [дискорда ](https://bit.ly/CodaDiscord)Coda и [руководства](https://medium.com/@_garethtdavies/playing-in-the-coda-sandbox-61d76c3685fd) от [Gareth Davies](https://medium.com/@_garethtdavies) \(@garethtdavies\#4963\)
-
+За основу были взяты материалы из [дискорда ](https://bit.ly/CodaDiscord)Coda и [руководства](https://medium.com/@_garethtdavies/playing-in-the-coda-sandbox-61d76c3685fd) от [Gareth Davies](https://medium.com/@_garethtdavies) \(@garethtdavies\#4963\)  
   
 __[Страница анонса](https://forums.codaprotocol.com/t/coda-pickles-sandbox-release/379)
 
