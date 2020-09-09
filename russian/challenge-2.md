@@ -72,7 +72,7 @@ coda client get-balance -token 1 -public-key B62qrPN5Y5yq8kGE3FbVKbGTdTAJNdtNtB5
 coda client mint-tokens -sender B62qrPN5Y5yq8kGE3FbVKbGTdTAJNdtNtB5sNVpxyRwWGcDEhpMzc8g -token 2 -amount 1000
 ```
 
-Проверим баланс командой:
+Проверим баланс командой \(баланс появится не сразу, нужно подождать около 5 минут\):
 
 ```text
 coda client get-balance -token 2 -public-key B62qrPN5Y5yq8kGE3FbVKbGTdTAJNdtNtB5sNVpxyRwWGcDEhpMzc8g
