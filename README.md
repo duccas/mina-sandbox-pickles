@@ -20,7 +20,7 @@ Carefully go through all the installation points and there should be no problems
 
 \*_Testnet Points are designed solely to track contributions to the Testnet and Testnet Points have no cash or other monetary value. Testnet Points are not transferable and are not redeemable or exchangeable for any cryptocurrency or digital assets. We may at any time amend or eliminate Testnet Points._
 
-It was based on materials from the Coda [discord](https://bit.ly/CodaDiscord) and the [guide ](https://medium.com/@_garethtdavies/playing-in-the-coda-sandbox-61d76c3685fd)from [Gareth Davies](https://medium.com/@_garethtdavies) \(@ garethtdavies \# 4963\)
+It was based on materials from the Coda [discord](https://bit.ly/CodaDiscord) and the [guide ](https://medium.com/@_garethtdavies/playing-in-the-coda-sandbox-61d76c3685fd)from [Gareth Davies](https://medium.com/@_garethtdavies) \(@garethtdavies\#4963\)
 
 [Announcements page](https://forums.codaprotocol.com/t/coda-pickles-sandbox-release/379)
 
