@@ -48,7 +48,7 @@ sudo docker logs --follow coda
 Для доступа к любым командам [Coda CLI](https://codaprotocol.com/docs/cli-reference):
 
 ```text
-docker exec -it coda bash
+sudo docker exec -it coda bash
 ```
 
 Например проверка статуса, состояния узла:
