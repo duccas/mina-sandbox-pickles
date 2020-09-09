@@ -100,7 +100,7 @@ coda client create-token-account -sender B62qrPN5Y5yq8kGE3FbVKbGTdTAJNdtNtB5sNVp
 В поле `-memo "My First TX"` вместо `My First TX` можно вписать что угодно. Либо оставить так, как есть.
 
 ```text
-coda client send-payment -sender B62qrPN5Y5yq8kGE3FbVKbGTdTAJNdtNtB5sNVpxyRwWGcDEhpMzc8g -receiver B62qpq8sA8uef6T5htApSgjeNKLE2BUAeuRFHWvxCzbjca7SpkfSuZE -token 2 -memo "First token tx" -amount 50
+coda client send-payment -sender B62qrPN5Y5yq8kGE3FbVKbGTdTAJNdtNtB5sNVpxyRwWGcDEhpMzc8g -receiver B62qoDWfBZUxKpaoQCoFqr12wkaY84FrhxXNXzgBkMUi2Tz4K8kBDiv -token 2 -memo "My First TX" -amount 50
 ```
 
 Через некоторое время токены поступят на адрес. Чтобы проверить баланс введите следующую команду:
