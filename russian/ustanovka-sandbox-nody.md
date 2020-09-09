@@ -34,7 +34,7 @@ codaprotocol/coda-demo:pickles-sandbox
 ### 3. Просмотр логов
 
 ```text
-docker logs --follow coda
+sudo docker logs --follow coda
 ```
 
 Теперь переходим к Challenge \#1
