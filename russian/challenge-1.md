@@ -9,7 +9,7 @@ description: >-
 ### Открываем логи Coda
 
 ```text
-docker logs --follow coda
+sudo docker logs --follow coda
 ```
 
 Ищем строки `Producing block in 0 slots` и `Generated transition $state_hash was accepted into transition frontier` и делаем скриншот как на картинке ниже. Далее считаем время от производства блока до генерирования нового. В моем случае это 4 минуты 57 секунд. 
