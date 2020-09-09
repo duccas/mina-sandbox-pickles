@@ -13,3 +13,13 @@
 * [Challenge \#5](russian/challenge-5.md)
 * [Challenge \#6](russian/challenge-6.md)
 
+## ENGLISH
+
+* [Install Sandbox node](english/install-sandbox-node.md)
+* [Challenge \#1](english/challenge-1.md)
+* [Challenge \#2](english/challenge-2.md)
+* [Challenge \#3](english/challenge-3.md)
+* [Challenge \#4](english/challenge-4.md)
+* [Challenge \#5](english/challenge-5.md)
+* [Challenge \#6](english/challenge-6.md)
+
