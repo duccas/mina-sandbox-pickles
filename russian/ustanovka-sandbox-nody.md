@@ -24,7 +24,7 @@ sudo systemctl enable docker
 ### 2. Запуск Sandbox ноды
 
 ```text
-docker run \
+sudo docker run \
 --publish 3085:3085 \
 -d \
 --name coda \
