@@ -15,6 +15,12 @@ Users can now create their own \(layer 2\) tokens on Coda Protocol, for example 
 
 ### 1. Let's create tokens
 
+To access any [Coda CLI](https://codaprotocol.com/docs/cli-reference) commands:
+
+```text
+sudo docker exec -it coda bash
+```
+
 First you need to unlock your account:
 
 ```text

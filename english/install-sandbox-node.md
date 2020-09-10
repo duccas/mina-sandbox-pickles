@@ -31,6 +31,14 @@ sudo docker run \
 codaprotocol/coda-demo:pickles-sandbox
 ```
 
+{% hint style="warning" %}
+If after running the command your node crashes with error 132, you need to start the node with a different docker image `codaprotocol/coda-demo:pickles-sandbox-classic` 
+
+Follow the link below!
+{% endhint %}
+
+{% page-ref page="error-solutions.md" %}
+
 ### 3. Viewing logs
 
 ```text

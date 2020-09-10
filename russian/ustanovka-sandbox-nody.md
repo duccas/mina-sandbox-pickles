@@ -31,6 +31,14 @@ sudo docker run \
 codaprotocol/coda-demo:pickles-sandbox
 ```
 
+{% hint style="warning" %}
+Если после запуска команды у вас нода крашится с ошибкой 132 вам нужно запустить ноду с другим образом докера`codaprotocol/coda-demo:pickles-sandbox-classic`
+
+Перейдите по ссылке ниже!
+{% endhint %}
+
+{% page-ref page="resheniya-po-oshibkam.md" %}
+
 ### 3. Просмотр логов
 
 ```text

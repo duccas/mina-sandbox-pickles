@@ -12,6 +12,7 @@
 * [Challenge \#4](russian/challenge-4.md)
 * [Challenge \#5](russian/challenge-5.md)
 * [Challenge \#6](russian/challenge-6.md)
+* [Решения по ошибкам](russian/resheniya-po-oshibkam.md)
 
 ## ENGLISH
 
@@ -22,4 +23,5 @@
 * [Challenge \#4](english/challenge-4.md)
 * [Challenge \#5](english/challenge-5.md)
 * [Challenge \#6](english/challenge-6.md)
+* [Error solutions](english/error-solutions.md)
 
