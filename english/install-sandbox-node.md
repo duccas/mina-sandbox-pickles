@@ -67,3 +67,23 @@ coda client status
 
 ![](../.gitbook/assets/image.png)
 
+### 5. Additional commands
+
+Exiting CLI mode:
+
+```text
+exit
+```
+
+Stopping a Coda container:
+
+```text
+sudo docker stop coda
+```
+
+ Removing a Coda container:
+
+```text
+sudo docker rm coda
+```
+

@@ -67,3 +67,23 @@ coda client status
 
 ![](../.gitbook/assets/image.png)
 
+### 5. Дополнительные команды
+
+Выход из режима CLI:
+
+```text
+exit
+```
+
+Остановка контейнера Coda:
+
+```text
+sudo docker stop coda
+```
+
+ Удаление контейнера Coda:
+
+```text
+sudo docker rm coda
+```
+
