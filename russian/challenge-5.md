@@ -14,3 +14,5 @@ description: 'Вокруг земного шара (Награда до 2,000 pt
 
 Получите свои баллы, сообщив Coda о своих встречах, блогах, видео, сообщениях в социальных сетях и т.д. Заполнив [эту форму](https://share.hsforms.com/1_li5ShJxQn-iqemQmoekiQ4xuul).
 
+{% embed url="https://share.hsforms.com/1\_li5ShJxQn-iqemQmoekiQ4xuul" %}
+

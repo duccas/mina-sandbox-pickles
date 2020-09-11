@@ -123,6 +123,8 @@ coda client get-balance -token 2 -public-key B62qoDWfBZUxKpaoQCoFqr12wkaY84FrhxX
 
 Для заполнения формы по заданиям Challenge \#1 и Challenge \#2 перейдите по [этой ссылке](https://share.hsforms.com/1V-gRVnWZSLehZVB_F3sacQ4xuul). 
 
+{% embed url="https://share.hsforms.com/1V-gRVnWZSLehZVB\_F3sacQ4xuul" %}
+
 1. Вам нужно ввести свой email.
 2. Discord ID
 3. Время производства блока, которое мы считали в Challenge \#1
