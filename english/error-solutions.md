@@ -8,7 +8,7 @@ If your node crashes with error 132, then start the node with the command below:
 sudo docker run \
 --publish 3085:3085 \
 -d \
---name coda \
+--name mina \
 codaprotocol/coda-demo:pickles-sandbox-classic
 ```
 

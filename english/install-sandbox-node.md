@@ -27,7 +27,7 @@ sudo systemctl enable docker
 sudo docker run \
 --publish 3085:3085 \
 -d \
---name coda \
+--name mina \
 codaprotocol/coda-demo:pickles-sandbox
 ```
 
@@ -42,7 +42,7 @@ Follow the link below!
 ### 3. Viewing logs
 
 ```text
-sudo docker logs --follow coda
+sudo docker logs --follow mina
 ```
 
 Now go to the Challenge \#1
@@ -53,16 +53,16 @@ Now go to the Challenge \#1
 This step only needs to be performed starting from Challenge \#2
 {% endhint %}
 
-To access any [Coda CLI](https://codaprotocol.com/docs/cli-reference) commands:
+To access any [Mina CLI](https://minaprotocol.com/docs/cli-reference) commands:
 
 ```text
-sudo docker exec -it coda bash
+sudo docker exec -it mina bash
 ```
 
 For example, checking the status, the state of the node:
 
 ```text
-coda client status
+mina client status
 ```
 
 ![](../.gitbook/assets/image.png)
@@ -75,15 +75,15 @@ Exiting CLI mode:
 exit
 ```
 
-Stopping a Coda container:
+Stopping a Mina container:
 
 ```text
-sudo docker stop coda
+sudo docker stop mina
 ```
 
- Removing a Coda container:
+ Removing a Mina container:
 
 ```text
-sudo docker rm coda
+sudo docker rm mina
 ```
 

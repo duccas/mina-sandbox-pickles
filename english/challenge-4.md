@@ -6,14 +6,14 @@ description: 'Community Builders (Community MVP + 2,000 pts)'
 
 ### **Community Builders**
 
-The Coda team wants to recognize the people who contribute the most to the creation and development of the community.
+The Mina team wants to recognize the people who contribute the most to the creation and development of the community.
 
 #### Selection criteria:
 
 1. Host a Meetup. 
-2. Create a "Coda Blockchain Club" community at your school, university, etc. 
-3. If you create content using Coda. \(Guides, instructions, translations, etc.\) 
-4. If you tell the world about Coda. \(Posts on Twitter and other social networks\) 
+2. Create a "Mina Blockchain Club" community at your school, university, etc. 
+3. If you create content using Mina. \(Guides, instructions, translations, etc.\) 
+4. If you tell the world about Mina. \(Posts on Twitter and other social networks\) 
 5. If you help other participants to take part in tests, set up a node, etc.
 
 {% hint style="info" %}

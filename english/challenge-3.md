@@ -1,12 +1,12 @@
 ---
-description: 'Coda Hardware Survey. (1,000 bonus pts)'
+description: 'Mina Hardware Survey. (1,000 bonus pts)'
 ---
 
 # Challenge \#3
 
 ### Technical characteristics
 
-The Coda team would like to know more about the hardware you intend to use for the upcoming Coda testnet 3.3 release. The information you provide will help us make improvements in future releases.
+The Mina team would like to know more about the hardware you intend to use for the upcoming Mina testnet 3.3 release. The information you provide will help us make improvements in future releases.
 
 Fill out the form at [this link](https://forms.gle/Qft3VquQ5Nobgetb7).
 

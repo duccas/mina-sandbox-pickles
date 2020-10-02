@@ -4,10 +4,10 @@ description: 'Provide time to produce blocks using the New Pickles SNARK (1,000 
 
 # Challenge \#1
 
-### Opening Coda logs
+### Opening Mina logs
 
 ```text
-sudo docker logs --follow coda
+sudo docker logs --follow mina
 ```
 
 We are looking for lines with`Producing block in 0 slots` and `Generated transition $state_hash was accepted into transition frontier` and take a screenshot as in the picture below. Next, we count the time from the production of a block to the generation of a new one. In my case, it is 4 minutes 57 seconds.
