@@ -18,7 +18,7 @@ description: 'Создание и отправка Fun токенов (Нагр�
 Для доступа к любым командам [Mina CLI](https://minaprotocol.com/docs/cli-reference):
 
 ```text
-sudo docker exec -it mina bash
+sudo docker exec -it coda bash
 ```
 
 Для начала нужно разблокировать аккаунт:
