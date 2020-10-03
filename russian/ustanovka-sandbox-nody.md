@@ -62,7 +62,7 @@ sudo docker exec -it mina bash
 Например проверка статуса, состояния узла:
 
 ```text
-mina client status
+coda client status
 ```
 
 ![](../.gitbook/assets/image.png)

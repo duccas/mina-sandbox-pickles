@@ -62,7 +62,7 @@ sudo docker exec -it mina bash
 For example, checking the status, the state of the node:
 
 ```text
-mina client status
+coda client status
 ```
 
 ![](../.gitbook/assets/image.png)

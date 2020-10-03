@@ -24,7 +24,7 @@ sudo docker exec -it mina bash
 Для начала нужно разблокировать аккаунт:
 
 ```text
-mina accounts unlock -public-key B62qrPN5Y5yq8kGE3FbVKbGTdTAJNdtNtB5sNVpxyRwWGcDEhpMzc8g
+coda accounts unlock -public-key B62qrPN5Y5yq8kGE3FbVKbGTdTAJNdtNtB5sNVpxyRwWGcDEhpMzc8g
 ```
 
 В поле ввода пароля ничего не пишем и жмем ENTER.
@@ -32,7 +32,7 @@ mina accounts unlock -public-key B62qrPN5Y5yq8kGE3FbVKbGTdTAJNdtNtB5sNVpxyRwWGcD
 Теперь создадим токены:
 
 ```text
-mina client create-token -sender B62qrPN5Y5yq8kGE3FbVKbGTdTAJNdtNtB5sNVpxyRwWGcDEhpMzc8g
+coda client create-token -sender B62qrPN5Y5yq8kGE3FbVKbGTdTAJNdtNtB5sNVpxyRwWGcDEhpMzc8g
 ```
 
 В ответ мы получим следующее:
@@ -48,7 +48,7 @@ Dispatched create new token command with ID 2cUDm3QoJ14znWj5LxN8hjwwuvtwi9FGXcy5
 Чтобы проводить следующие операции нам нужно знать ID токенов. Получим его следующей командой:
 
 ```text
-mina client get-tokens -public-key B62qrPN5Y5yq8kGE3FbVKbGTdTAJNdtNtB5sNVpxyRwWGcDEhpMzc8g
+coda client get-tokens -public-key B62qrPN5Y5yq8kGE3FbVKbGTdTAJNdtNtB5sNVpxyRwWGcDEhpMzc8g
 ```
 
 В ответ мы получим следующее:
@@ -65,7 +65,7 @@ Accounts are held for token IDs:
 Баланс токенов проверяем командой ниже с вашим ID токенов:
 
 ```text
-mina client get-balance -token 1 -public-key B62qrPN5Y5yq8kGE3FbVKbGTdTAJNdtNtB5sNVpxyRwWGcDEhpMzc8g
+coda client get-balance -token 1 -public-key B62qrPN5Y5yq8kGE3FbVKbGTdTAJNdtNtB5sNVpxyRwWGcDEhpMzc8g
 ```
 
 Мы увидим баланс mina токенов.
@@ -75,20 +75,20 @@ mina client get-balance -token 1 -public-key B62qrPN5Y5yq8kGE3FbVKbGTdTAJNdtNtB5
 Чтобы сминтить новые токены нужно выполнить команду `mint-tokens`. Будут созданы 1,000 токенов в учетной записи отправителя транзакции под номером token ID 2.
 
 ```text
-mina client mint-tokens -sender B62qrPN5Y5yq8kGE3FbVKbGTdTAJNdtNtB5sNVpxyRwWGcDEhpMzc8g -token 2 -amount 1000
+coda client mint-tokens -sender B62qrPN5Y5yq8kGE3FbVKbGTdTAJNdtNtB5sNVpxyRwWGcDEhpMzc8g -token 2 -amount 1000
 ```
 
 Проверим баланс командой \(баланс появится не сразу, нужно подождать около 5 минут\):
 
 ```text
-mina client get-balance -token 2 -public-key B62qrPN5Y5yq8kGE3FbVKbGTdTAJNdtNtB5sNVpxyRwWGcDEhpMzc8g
+coda client get-balance -token 2 -public-key B62qrPN5Y5yq8kGE3FbVKbGTdTAJNdtNtB5sNVpxyRwWGcDEhpMzc8g
 ```
 
 Через некоторое время мы должны увидеть на балансе 1,000 mina токенов.
 
 {% code title="\#ПРИМЕР ОТВЕТА" %}
 ```text
-mina client get-balance -token 2 -public-key B62qrPN5Y5yq8kGE3FbVKbGTdTAJNdtNtB5sNVpxyRwWGcDEhpMzc8g
+coda client get-balance -token 2 -public-key B62qrPN5Y5yq8kGE3FbVKbGTdTAJNdtNtB5sNVpxyRwWGcDEhpMzc8g
 Balance: 1000 tokens
 ```
 {% endcode %}
@@ -99,20 +99,20 @@ Balance: 1000 tokens
 Чтобы это сделать нам сначала нужно добавить получателя командой ниже:
 
 ```text
-mina client create-token-account -sender B62qrPN5Y5yq8kGE3FbVKbGTdTAJNdtNtB5sNVpxyRwWGcDEhpMzc8g -receiver B62qoDWfBZUxKpaoQCoFqr12wkaY84FrhxXNXzgBkMUi2Tz4K8kBDiv -token 2
+coda client create-token-account -sender B62qrPN5Y5yq8kGE3FbVKbGTdTAJNdtNtB5sNVpxyRwWGcDEhpMzc8g -receiver B62qoDWfBZUxKpaoQCoFqr12wkaY84FrhxXNXzgBkMUi2Tz4K8kBDiv -token 2
 ```
 
 Теперь отправим 50 токенов.   
 В поле `-memo "My First TX"` вместо `My First TX` можно вписать что угодно. Либо оставить так, как есть.
 
 ```text
-mina client send-payment -sender B62qrPN5Y5yq8kGE3FbVKbGTdTAJNdtNtB5sNVpxyRwWGcDEhpMzc8g -receiver B62qoDWfBZUxKpaoQCoFqr12wkaY84FrhxXNXzgBkMUi2Tz4K8kBDiv -token 2 -memo "My First TX" -amount 50
+coda client send-payment -sender B62qrPN5Y5yq8kGE3FbVKbGTdTAJNdtNtB5sNVpxyRwWGcDEhpMzc8g -receiver B62qoDWfBZUxKpaoQCoFqr12wkaY84FrhxXNXzgBkMUi2Tz4K8kBDiv -token 2 -memo "My First TX" -amount 50
 ```
 
 Через некоторое время токены поступят на адрес. Чтобы проверить баланс введите следующую команду:
 
 ```text
-mina client get-balance -token 2 -public-key B62qoDWfBZUxKpaoQCoFqr12wkaY84FrhxXNXzgBkMUi2Tz4K8kBDiv
+coda client get-balance -token 2 -public-key B62qoDWfBZUxKpaoQCoFqr12wkaY84FrhxXNXzgBkMUi2Tz4K8kBDiv
 ```
 
 Теперь сделайте скриншот вывода команды баланса как показано ниже. 
