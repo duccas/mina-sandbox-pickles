@@ -15,7 +15,7 @@ Users can now create their own \(layer 2\) tokens on Mina Protocol, for example 
 
 ### 1. Let's create tokens
 
-To access any [Coda CLI](https://minaprotocol.com/docs/cli-reference) commands:
+To access any [Mina CLI](https://minaprotocol.com/docs/cli-reference) commands:
 
 ```text
 sudo docker exec -it mina bash
@@ -84,7 +84,7 @@ Let's check the balance with the command \(the balance will not appear immediate
 mina client get-balance -token 2 -public-key B62qrPN5Y5yq8kGE3FbVKbGTdTAJNdtNtB5sNVpxyRwWGcDEhpMzc8g
 ```
 
-After a while, we should see 1,000 coda tokens on our balance.
+After a while, we should see 1,000 mina tokens on our balance.
 
 {% code title="\#EXAMPLE OF ANSWER" %}
 ```text
